@@ -13,7 +13,7 @@ function getAndRenderListData() {
     $("#tableBody").empty();
 
     //let url = "../json/list_first_page.json";
-    let url = "https://kevin666iiiii.github.io/Capstone-Web.github.io/json/list_first_page.json";
+     let url = "https://kevin666iiiii.github.io/Capstone-Web.github.io/json/list_first_page.json";
 
     $.getJSON(url, function (dataList) {
 
@@ -32,7 +32,7 @@ function getAndRenderListData() {
                     <td id='riskAreasTag${i}'></td>
                     <td>
 <!--                        <img class="btn-op" src="../img/btn_view.png" onclick='toDetailPage(${data.viewId})'/>-->
-                        <img class="btn-op" src="../img/btn_view.png" onclick='toDetailPage(${i})'/>
+                        <img class="btn-op" src="./img/btn_view.png" onclick='toDetailPage(${i})'/>
                     </td>
                 </tr>
             `);
