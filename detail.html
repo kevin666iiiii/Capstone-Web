@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>detail</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/detail.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div>
+    <div class="top">
+        <div class="top-left">
+            <img src="img/back.png" onclick="backPage()">
+        </div>
+        <div class="top-right">
+            <span class="badge badge-pill badge-primary info-item" id="dateBadge">2023-08-24</span>
+            <span class="badge badge-pill badge-primary info-item" id="tutorBadge">Tutor: XXX</span>
+            <span class="badge badge-pill badge-primary info-item" id="sessionIdBadge" style="background-color: #4d6dd2;color: white">Session ID: XXXXXX</span>
+            <img src="img/download.png" style="margin-left: 10px;width: 30px;height: 30px">
+            <img src="img/infomation.png" style="margin-left: 10px;width: 30px;height: 30px">
+            <img src="img/handle.png" style="margin-left: 10px;width: 30px;height: 30px">
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="container-head">
+            <div class="container-head-left">Rubric Rating</div>
+            <div class="container-head-left">
+                <img src="img/dot.png">
+            </div>
+        </div>
+        <div class="card-container" id="cardContainer"></div>
+    </div>
+
+    <div class="content-container">
+        <div class="container-head">
+            <div class="container-head-left">Session Timeline</div>
+            <div class="container-head-left">
+                <img src="img/dot.png">
+            </div>
+        </div>
+        <div class="time-line-container">
+            <div class="time-line-container-left">
+                <div>Communication Level</div>
+                <div>Instruction Delivery</div>
+                <div>Tech & Tool Usage</div>
+                <div>Socio-Emotional Teaching</div>
+                <div>Feedback</div>
+            </div>
+            <div class="time-line-container-right" id="timeLineContainer"></div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

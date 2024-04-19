@@ -1,11 +1,12 @@
 .main-container {
     display: flex;
+    background-color: #f5f8ff;
 }
 
 .content-left {
-    height: 100vh;
-    background-color: #617cdb;
-    min-width: 100px;
+    /*min-height: 100vh;*/
+    /*background-color: #617cdb;*/
+    /*min-width: 100px;*/
 }
 
 .condition-label {
@@ -19,10 +20,11 @@
 }
 
 .search-condition {
-    background-color: #f1f0f6;
+    /*background-color: #f1f0f6;*/
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    /*padding: 20px;*/
+    margin-bottom: 20px;
 }
 
 .search-condition-left {
@@ -33,9 +35,16 @@
     display: flex;
 }
 
+.table-container{
+    padding: 20px 30px 20px 30px;
+    box-shadow: 0 0 10px 0 #cccccc;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    min-width: 1430px;
+}
+
 .table-thead {
-    background-color: #617cdb;
-    color: #ebeefb;
+    background-color: #eff1f5;
     /*color: white;*/
 }
 
@@ -72,13 +81,21 @@
     cursor: pointer;
 }
 
+.btn-menu{
+    width: 40px;
+    height: 40px;
+}
+
+.btn-menu:hover{
+   cursor: pointer;
+}
 
 .div-selection {
     margin-left: 10px;
 }
 
 .form-control {
-    border: 2px solid #617cdb;
+    border: 2px solid #eff1f5;
     padding: .375rem .30rem;
 }
 
@@ -93,4 +110,54 @@
 
 .text-link{
     text-decoration: underline;
+}
+
+.form-item-title{
+    margin: 10px 0 10px 0;
+}
+
+.form-item-check{
+    margin-left: 10px;
+}
+
+.btn-date{
+    border:1px solid #dadada;
+}
+
+.btn-date:focus, .btn-date.focus {
+    color: #212529;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+.datetimepicker-group{
+    background-color: #f1f3f6;
+    display: inline-block;
+    border: solid 1px #dadada;
+    padding: 4px 10px 4px 10px;
+    margin-top: 10px;
+}
+.datetimepicker-input{
+    background-color: #f1f3f6;
+    border: none;
+    width: 100px;
+    margin-left: 6px;
+}
+
+.condition-selected{
+    padding: 6px 4px 6px 4px;
+    margin-bottom: 10px;
+}
+
+.selected-tag{
+    background-color: #eff1f5;
+    margin-right: 10px;
+}
+
+.selected-tag:focus{
+    box-shadow: none;
+}
+
+.selected-tag:hover{
+    box-shadow: 0 0 0 2px #dadada;
 }

@@ -1,0 +1,328 @@
+[
+  {
+    "sessionId": "148d4168-1afb-4faf-81fa-5a239d5eed35",
+    "tutor": "David Mayzlin",
+    "subject": "Algebra",
+    "date": "2023-08-24",
+    "duration": 60.0,
+    "rubircRating": 3.4,
+    "sessionDuration": 0.6028955555555555,
+    "viewId": 1,
+    "riskAreas": [
+      {
+        "text": "Technical Issues",
+        "color": "red"
+      },
+      {
+        "text": "Low Rubric Rating",
+        "color": "aquamarine"
+      },
+      {
+        "text": "Short Sessions",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "sessionId": "a33bf770-564a-4113-960d-32f438fc7db4",
+    "tutor": "David Mayzlin",
+    "subject": "Algebra",
+    "date": "2023-08-04",
+    "duration": 60.0,
+    "rubircRating": 3.8,
+    "sessionDuration": 0.9808038888888888,
+    "viewId": 2,
+    "riskAreas": [
+      {
+        "text": "Low Rubric Rating",
+        "color": "aquamarine"
+      }
+    ]
+  },
+  {
+    "sessionId": "243b887a-84f8-4451-9db6-8b37c0888972",
+    "tutor": "Ashreema Luitel",
+    "subject": "Algebra",
+    "date": "2023-08-15",
+    "duration": 60.0,
+    "rubircRating": 6.0,
+    "sessionDuration": 1.0571166666666667,
+    "viewId": 3,
+    "riskAreas": []
+  },
+  {
+    "sessionId": "8f36927b-3f1e-4e44-8c4e-0daaaa45130a",
+    "tutor": "Mary Ebert",
+    "subject": "Algebra 2",
+    "date": "2024-01-26",
+    "duration": 90.0,
+    "rubircRating": 7.2,
+    "sessionDuration": 0.4854025925925926,
+    "viewId": 4,
+    "riskAreas": [
+      {
+        "text": "Technical Issues",
+        "color": "blue"
+      },
+      {
+        "text": "Short Sessions",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "sessionId": "285a5de8-f157-424f-9b54-5ae097c55dfb",
+    "tutor": "Cynthia Hartman",
+    "subject": "Algebra 2",
+    "date": "2024-02-18",
+    "duration": 60.0,
+    "rubircRating": 6.4,
+    "sessionDuration": 0.94812,
+    "viewId": 5,
+    "riskAreas": []
+  },
+  {
+    "sessionId": "db51c4d6-2b0f-4653-94f6-8881294194f3",
+    "tutor": "Chernyeh Yang",
+    "subject": "Algebra 2",
+    "date": "2023-11-10",
+    "duration": 90.0,
+    "rubircRating": 7.0,
+    "sessionDuration": 0.9546025925925924,
+    "viewId": 6,
+    "riskAreas": []
+  },
+  {
+    "sessionId": "2c8af099-9996-4c1c-88aa-92bf2b9330f8",
+    "tutor": "Kevin Thibodeau",
+    "subject": "Algebra 2",
+    "date": "2023-11-02",
+    "duration": 60.0,
+    "rubircRating": 7.2,
+    "sessionDuration": 0.8164627777777778,
+    "viewId": 7,
+    "riskAreas": []
+  },
+  {
+    "sessionId": "1c9f4e04-7d61-4c52-af84-c733059f9eb1",
+    "tutor": "Chandra Perkins",
+    "subject": "Algebra 2",
+    "date": "2023-12-04",
+    "duration": 60.0,
+    "rubircRating": 4.4,
+    "sessionDuration": 1.1790761111111112,
+    "viewId": 8,
+    "riskAreas": [
+      {
+        "text": "Technical Issues",
+        "color": "blue"
+      },
+      {
+        "text": "Low Rubric Rating",
+        "color": "aquamarine"
+      }
+    ]
+  },
+  {
+    "sessionId": "9c63354c-f46a-4cac-ba95-6aeeef3222e2",
+    "tutor": "Rebekah Edwards",
+    "subject": "Algebra 2",
+    "date": "2023-11-08",
+    "duration": 60.0,
+    "rubircRating": 7.4,
+    "sessionDuration": 0.757355,
+    "viewId": 9,
+    "riskAreas": [
+      {
+        "text": "Technical Issues",
+        "color": "blue"
+      },
+      {
+        "text": "Short Sessions",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "sessionId": "729562d7-b944-4686-80ba-66daeadfed53",
+    "tutor": "Ashreema Luitel",
+    "subject": "Algebra",
+    "date": "2023-08-11",
+    "duration": 60.0,
+    "rubircRating": 4.6,
+    "sessionDuration": 1.0092222222222222,
+    "viewId": 10,
+    "riskAreas": [
+      {
+        "text": "Technical Issues",
+        "color": "blue"
+      },
+      {
+        "text": "Low Rubric Rating",
+        "color": "aquamarine"
+      }
+    ]
+  },
+  {
+    "sessionId": "657cd9dc-7018-457a-b3aa-7a6843c96e31",
+    "tutor": "David Mayzlin",
+    "subject": "Algebra",
+    "date": "2023-08-03",
+    "duration": 60.0,
+    "rubircRating": 4.6,
+    "sessionDuration": 0.9745316666666668,
+    "viewId": 11,
+    "riskAreas": [
+      {
+        "text": "Technical Issues",
+        "color": "blue"
+      },
+      {
+        "text": "Low Rubric Rating",
+        "color": "aquamarine"
+      }
+    ]
+  },
+  {
+    "sessionId": "3309a407-2dff-4671-9bd6-310825102e7a",
+    "tutor": "David Mayzlin",
+    "subject": "Algebra",
+    "date": "2023-08-16",
+    "duration": 60.0,
+    "rubircRating": 5.8,
+    "sessionDuration": 0.9889333333333332,
+    "viewId": 12,
+    "riskAreas": [
+      {
+        "text": "Technical Issues",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "sessionId": "4af8f5df-d760-4f3e-b123-328abb39f31e",
+    "tutor": "John Forry",
+    "subject": "Algebra",
+    "date": "2024-02-07",
+    "duration": 60.0,
+    "rubircRating": 4.4,
+    "sessionDuration": 0.8839927777777777,
+    "viewId": 13,
+    "riskAreas": [
+      {
+        "text": "Technical Issues",
+        "color": "blue"
+      },
+      {
+        "text": "Low Rubric Rating",
+        "color": "aquamarine"
+      }
+    ]
+  },
+  {
+    "sessionId": "43d753a7-bdf5-4959-a960-a69e308c11c5",
+    "tutor": "Alison Kennedy",
+    "subject": "Algebra 2",
+    "date": "2023-10-15",
+    "duration": 90.0,
+    "rubircRating": 6.4,
+    "sessionDuration": 0.2717544444444444,
+    "viewId": 14,
+    "riskAreas": [
+      {
+        "text": "Short Sessions",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "sessionId": "681906a1-9613-4208-b5da-28bd167b83ee",
+    "tutor": "Angela McNeill",
+    "subject": "Algebra 2",
+    "date": "2023-11-02",
+    "duration": 60.0,
+    "rubircRating": 5.4,
+    "sessionDuration": 0.4095894444444444,
+    "viewId": 15,
+    "riskAreas": [
+      {
+        "text": "Short Sessions",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "sessionId": "15cf16d0-a2c8-4dbb-bab7-60cf3ab0f4e3",
+    "tutor": "Cassandra Herion",
+    "subject": "Algebra",
+    "date": "2023-09-19",
+    "duration": 60.0,
+    "rubircRating": 5.6,
+    "sessionDuration": 1.0079177777777777,
+    "viewId": 16,
+    "riskAreas": []
+  },
+  {
+    "sessionId": "1f07773b-751a-4f74-bd2b-41b1ba7de4d7",
+    "tutor": "Lisa McCauley",
+    "subject": "Algebra 2",
+    "date": "2023-11-26",
+    "duration": 60.0,
+    "rubircRating": 5.8,
+    "sessionDuration": 1.0004677777777775,
+    "viewId": 17,
+    "riskAreas": []
+  },
+  {
+    "sessionId": "7fec5275-f5eb-43f9-8caf-9f5ea488748d",
+    "tutor": "Cynthia Hartman",
+    "subject": "Algebra",
+    "date": "2023-10-26",
+    "duration": 60.0,
+    "rubircRating": 5.2,
+    "sessionDuration": 0.6832844444444445,
+    "viewId": 18,
+    "riskAreas": [
+      {
+        "text": "Short Sessions",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "sessionId": "2768dff3-4e47-4cce-be0f-5f6cc29e474b",
+    "tutor": "Azriel Wolffe",
+    "subject": "Algebra 2",
+    "date": "2023-11-27",
+    "duration": 60.0,
+    "rubircRating": 5.4,
+    "sessionDuration": 0.6094177777777777,
+    "viewId": 19,
+    "riskAreas": [
+      {
+        "text": "Technical Issues",
+        "color": "blue"
+      },
+      {
+        "text": "Short Sessions",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "sessionId": "7aca5560-6db7-41d7-b069-87ad18e860ab",
+    "tutor": "Sasha Santos Lesoing",
+    "subject": "Algebra 2",
+    "date": "2023-10-23",
+    "duration": 60.0,
+    "rubircRating": 5.8,
+    "sessionDuration": 1.0037944444444444,
+    "viewId": 20,
+    "riskAreas": [
+      {
+        "text": "Technical Issues",
+        "color": "blue"
+      }
+    ]
+  }
+]
