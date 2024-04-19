@@ -12,7 +12,10 @@ $(document).ready(function () {
 function getAndRenderListData() {
     $("#tableBody").empty();
 
-    $.getJSON('../json/list_first_page.json', function (dataList) {
+    //let url = "../json/list_first_page.json";
+    let url = "https://kevin666iiiii.github.io/Capstone-Web.github.io/json/list_first_page.json";
+
+    $.getJSON(url, function (dataList) {
 
         tableData = dataList;
 

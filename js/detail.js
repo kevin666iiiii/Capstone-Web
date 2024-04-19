@@ -32,7 +32,11 @@ function backPage() {
 }
 
 function renderData() {
-    $.getJSON(`../json/detail_${sessionId}.json`, function (data) {
+
+    //let url = `../json/detail_${sessionId}.json`;
+    let url = `https://kevin666iiiii.github.io/Capstone-Web.github.io/json/detail_${sessionId}.json`;
+
+    $.getJSON(url, function (data) {
         let communicationLevelInfo = data.communicationLevelInfo;
         let instructionDeliveryInfo = data.instructionDeliveryInfo;
         let techToolUsageInfo = data.techToolUsageInfo;
