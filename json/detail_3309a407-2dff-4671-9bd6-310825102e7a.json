@@ -1,0 +1,181 @@
+{
+  "communicationLevelInfo": {
+    "level": 8.8,
+    "percent": 60.0,
+    "remarks": [
+      "\u00b7 This score measures communication in the session in the session.",
+      "\u00b7 Students are expected to actively participate in course content.",
+      "\u00b7 The score is measured by the turns and extra domain discussion."
+    ]
+  },
+  "instructionDeliveryInfo": {
+    "level": 2.7,
+    "percent": 40.0,
+    "remarks": [
+      "\u00b7 This score measures tutor's instruction techniques in the session.",
+      "\u00b7 Turors are expected to check student understanding by ask them to explain.",
+      "\u00b7 The score is measured by the frequency."
+    ]
+  },
+  "techToolUsageInfo": {
+    "level": 6.5,
+    "percent": 40.0,
+    "remarks": [
+      "\u00b7 This score measures technical difficulties in the session.",
+      "\u00b7 Tutors are expected to spend less time on technical difficulties.",
+      "\u00b7 The score is measured by the time."
+    ]
+  },
+  "socioEmotionalTeachingInfo": {
+    "level": 9.2,
+    "percent": 100.0,
+    "remarks": [
+      "\u00b7 This score measures technical difficulty in the session.",
+      "\u00b7 Tutors and students are expected to use more positive tones.",
+      "\u00b7 The score is measured by the proportion of negative tones."
+    ]
+  },
+  "feedbackInfo": {
+    "level": 4.0,
+    "percent": 35.0,
+    "remarks": [
+      "\u00b7 This score measures tutor's feedback quality in the session.",
+      "\u00b7 Tutors are expected to provide detailed feedback with explainations.",
+      "\u00b7 The score is measured by the proportion of good feedback."
+    ]
+  },
+  "timeline": {
+    "timeText": [
+      "03",
+      "06",
+      "09",
+      "12",
+      "15",
+      "18",
+      "21",
+      "24",
+      "27",
+      "30",
+      "33",
+      "36",
+      "39",
+      "42",
+      "45",
+      "48",
+      "51",
+      "54",
+      "57",
+      "60"
+    ],
+    "communicationLevel": [
+      2,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "instructionDelivery": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "techToolUsage": [
+      2,
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0
+    ],
+    "socioEmotionalTeaching": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "feedback": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

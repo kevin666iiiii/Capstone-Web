@@ -50,7 +50,7 @@ function renderData() {
         renderTimeLine(data.timeline.techToolUsage);
         renderTimeLine(data.timeline.socioEmotionalTeaching);
         renderTimeLine(data.timeline.feedback);
-        renderTimeText();
+        renderTimeText(data.timeline.timeText);
     })
 }
 
@@ -111,8 +111,9 @@ function renderTimeLine(data) {
     `);
 }
 
-function renderTimeText() {
-    let timeTextArr = ["00'","03'","06'","09'","12'","15'","18'","21'","24'","27'","30'","33'","36'","39'","42'","45'","48'","51'","54'","57'"];
+function renderTimeText(timeTextArray) {
+    //let timeTextArr = ["00'","03'","06'","09'","12'","15'","18'","21'","24'","27'","30'","33'","36'","39'","42'","45'","48'","51'","54'","57'"];
+    let timeTextArr = timeTextArray;
     let timeTextHtmlContent = "";
     for (let j = 0; j <timeTextArr.length; j++) {
         timeTextHtmlContent += `<label class="time-text" style="margin-right: 4.2px">${timeTextArr[j]}</label>`;
