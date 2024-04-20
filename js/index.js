@@ -15,10 +15,10 @@ function getAndRenderListData() {
     // let url = "../json/list_first_page.json";
      let url = "https://kevin666iiiii.github.io/Capstone-Web.github.io/json/list_first_page.json";
 
-    let rankTextArr = [];
-    if (technicalIssuesHasChecked) rankTextArr.push("Technical Issues");
-    if (sessionDurationHasChecked) rankTextArr.push("Short Sessions");
-    if (rubriceRatingHasChecked) rankTextArr.push("Low Rubric Rating");
+    let conditionRankTextArr = [];
+    if (technicalIssuesHasChecked) conditionRankTextArr.push("Technical Issues");
+    if (sessionDurationHasChecked) conditionRankTextArr.push("Short Sessions");
+    if (rubriceRatingHasChecked) conditionRankTextArr.push("Low Rubric Rating");
 
 
     $.getJSON(url, function (dataList) {
@@ -31,11 +31,17 @@ function getAndRenderListData() {
 
             let riskAreasTextArr = data.riskAreas.map(item => item.text);
 
-            let riskAreasIsAllEqual = rankTextArr.length === riskAreasTextArr.length && rankTextArr.sort().toString() === riskAreasTextArr.sort().toString();
+            //let riskAreasIsAllEqual = conditionRankTextArr.length === riskAreasTextArr.length && conditionRankTextArr.sort().toString() === riskAreasTextArr.sort().toString();
+            // if (rankTextArr.length !== 0 && !riskAreasIsAllEqual){
+            //     continue;
+            // }
 
-            if (rankTextArr.length !== 0 && !riskAreasIsAllEqual){
+            let conditionRankIsInclude = conditionRankTextArr.every(item => riskAreasTextArr.includes(item));
+
+            if (!conditionRankIsInclude){
                 continue;
             }
+
 
 
             $("#tableBody").append(`
