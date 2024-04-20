@@ -12,15 +12,31 @@ $(document).ready(function () {
 function getAndRenderListData() {
     $("#tableBody").empty();
 
-    //let url = "../json/list_first_page.json";
+    // let url = "../json/list_first_page.json";
      let url = "https://kevin666iiiii.github.io/Capstone-Web.github.io/json/list_first_page.json";
+
+    let rankTextArr = [];
+    if (technicalIssuesHasChecked) rankTextArr.push("Technical Issues");
+    if (sessionDurationHasChecked) rankTextArr.push("Short Sessions");
+    if (rubriceRatingHasChecked) rankTextArr.push("Low Rubric Rating");
+
 
     $.getJSON(url, function (dataList) {
 
         tableData = dataList;
 
         for (let i = 0; i < dataList.length; i++) {
+
             let data = dataList[i];
+
+            let riskAreasTextArr = data.riskAreas.map(item => item.text);
+
+            let riskAreasIsAllEqual = rankTextArr.length === riskAreasTextArr.length && rankTextArr.sort().toString() === riskAreasTextArr.sort().toString();
+
+            if (rankTextArr.length !== 0 && !riskAreasIsAllEqual){
+                continue;
+            }
+
 
             $("#tableBody").append(`
                 <tr>
@@ -48,23 +64,9 @@ function getAndRenderListData() {
                 let riskAreaText = riskArea.text;
                 let riskAreaColor = riskArea.color;
 
-                if (riskAreaText.toLowerCase() === "low rubric rating" && rubriceRatingHasChecked) {
-                    $(`#riskAreasTag${i}`).append(`
+                $(`#riskAreasTag${i}`).append(`
                         <span class='tag tag-light-${riskAreaColor}'>${riskAreaText}</span>
                     `)
-                }
-
-                if (riskAreaText.toLowerCase() === "technical issues" && technicalIssuesHasChecked) {
-                    $(`#riskAreasTag${i}`).append(`
-                        <span class='tag tag-light-${riskAreaColor}'>${riskAreaText}</span>
-                    `)
-                }
-
-                if (riskAreaText.toLowerCase() === "short sessions" && sessionDurationHasChecked) {
-                    $(`#riskAreasTag${i}`).append(`
-                        <span class='tag tag-light-${riskAreaColor}'>${riskAreaText}</span>
-                    `)
-                }
 
             }
 

@@ -25,8 +25,9 @@ html body{
 .info-item{
     display: inline-block;
     padding: 10px 20px 10px 20px;
-    background-color: #dce3f7;
     color: black;
+    background-color: #4d6dd2;
+    color: white
 }
 
 .content-container{
@@ -89,6 +90,10 @@ html body{
     background-color: #f1f2f6
 }
 
+.progress-color-light-blue{
+    background-color: #c9d3f2
+}
+
 .progress-color-light-green{
     background-color: #ddf4f2
 }
@@ -112,6 +117,10 @@ html body{
 
 .progress-bar-color-light-red{
     background-color: #ffeeee
+}
+
+.progress-bar-color-light-blue{
+    background-color: #4d6dd2
 }
 
 .progress-container{

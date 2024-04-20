@@ -33,7 +33,7 @@ function backPage() {
 
 function renderData() {
 
-    //let url = `../json/detail_${sessionId}.json`;
+    // let url = `../json/detail_${sessionId}.json`;
     let url = `https://kevin666iiiii.github.io/Capstone-Web.github.io/json/detail_${sessionId}.json`;
 
     $.getJSON(url, function (data) {
@@ -66,8 +66,8 @@ function renderCardInfo(cardTitle, data) {
     }
 
     let contentCardBgColor = 'content-card-grey';
-    let progressColor = 'progress-color-light-grey';
-    let progressBarColor = 'progress-bar-color-white';
+    let progressColor = 'progress-color-light-blue';
+    let progressBarColor = 'progress-bar-color-blue';
 
     // if (data.dos != null && data.dont != null) {
     //     contentCardBgColor = 'content-card-white';

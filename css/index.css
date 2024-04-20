@@ -1,3 +1,4 @@
+
 .main-container {
     display: flex;
     background-color: #f5f8ff;
@@ -15,7 +16,7 @@
 }
 
 .content-right {
-    margin-left: 60px;
+    margin-left: 40px;
     padding-top: 50px;
 }
 
@@ -40,7 +41,7 @@
     box-shadow: 0 0 10px 0 #cccccc;
     border-radius: 30px;
     margin-bottom: 30px;
-    min-width: 1430px;
+    min-width: 1450px;
 }
 
 .table-thead {
