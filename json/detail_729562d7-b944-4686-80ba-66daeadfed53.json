@@ -9,8 +9,8 @@
     ]
   },
   "instructionDeliveryInfo": {
-    "level": 2.9,
-    "percent": 45.0,
+    "level": 3.9,
+    "percent": 30.0,
     "remarks": [
       "\u00b7 This score measures tutor's instruction techniques in the session.",
       "\u00b7 Turors are expected to check student understanding by ask them to explain.",
@@ -27,8 +27,8 @@
     ]
   },
   "socioEmotionalTeachingInfo": {
-    "level": 2.9,
-    "percent": 15.0,
+    "level": 3.6,
+    "percent": 25.0,
     "remarks": [
       "\u00b7 This score measures technical difficulty in the session.",
       "\u00b7 Tutors and students are expected to use more positive tones.",
@@ -45,28 +45,7 @@
     ]
   },
   "timeline": {
-    "timeText": [
-      "03",
-      "06",
-      "09",
-      "12",
-      "15",
-      "18",
-      "21",
-      "24",
-      "27",
-      "30",
-      "33",
-      "36",
-      "39",
-      "42",
-      "45",
-      "48",
-      "51",
-      "54",
-      "57",
-      "60"
-    ],
+    "timeText": "['03', '06', '09', '12', '15', '18', '21', '24', '27', '30', '33', '36', '39', '42', '45', '48', '51', '54', '57', '60']",
     "communicationLevel": [
       2,
       2,
@@ -90,25 +69,25 @@
       2
     ],
     "instructionDelivery": [
-      3,
+      0,
+      1,
+      0,
+      0,
+      0,
       2,
+      0,
+      0,
+      0,
+      2,
+      0,
       1,
       1,
       2,
       2,
       0,
-      2,
+      3,
       1,
       2,
-      2,
-      3,
-      2,
-      2,
-      2,
-      0,
-      2,
-      2,
-      3,
       0
     ],
     "techToolUsage": [
@@ -136,24 +115,24 @@
     "socioEmotionalTeaching": [
       2,
       3,
+      0,
+      0,
       1,
-      1,
-      1,
-      1,
+      0,
       0,
       2,
       0,
       1,
-      2,
       1,
       1,
-      1,
-      2,
       0,
       1,
+      1,
+      0,
+      1,
+      1,
       2,
-      2,
-      1
+      0
     ],
     "feedback": [
       0,

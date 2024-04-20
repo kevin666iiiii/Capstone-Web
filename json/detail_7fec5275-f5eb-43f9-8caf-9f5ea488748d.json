@@ -9,8 +9,8 @@
     ]
   },
   "instructionDeliveryInfo": {
-    "level": 2.0,
-    "percent": 30.0,
+    "level": 1.5,
+    "percent": 15.0,
     "remarks": [
       "\u00b7 This score measures tutor's instruction techniques in the session.",
       "\u00b7 Turors are expected to check student understanding by ask them to explain.",
@@ -18,8 +18,8 @@
     ]
   },
   "techToolUsageInfo": {
-    "level": 8.5,
-    "percent": 85.0,
+    "level": 8.0,
+    "percent": 75.0,
     "remarks": [
       "\u00b7 This score measures technical difficulties in the session.",
       "\u00b7 Tutors are expected to spend less time on technical difficulties.",
@@ -27,8 +27,8 @@
     ]
   },
   "socioEmotionalTeachingInfo": {
-    "level": 7.3,
-    "percent": 80.0,
+    "level": 7.2,
+    "percent": 75.0,
     "remarks": [
       "\u00b7 This score measures technical difficulty in the session.",
       "\u00b7 Tutors and students are expected to use more positive tones.",
@@ -45,28 +45,7 @@
     ]
   },
   "timeline": {
-    "timeText": [
-      "02",
-      "04",
-      "06",
-      "08",
-      "10",
-      "12",
-      "14",
-      "16",
-      "18",
-      "20",
-      "22",
-      "24",
-      "26",
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40"
-    ],
+    "timeText": "['02', '04', '06', '08', '10', '12', '14', '16', '18', '20', '22', '24', '26', '28', '30', '32', '34', '36', '38', '40']",
     "communicationLevel": [
       2,
       0,
@@ -93,23 +72,23 @@
       1,
       0,
       1,
-      3,
-      2,
-      2,
-      2,
-      3,
       2,
       1,
-      3,
-      3,
-      3,
       1,
-      1,
-      2,
-      2,
-      2,
       0,
-      0
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      1
     ],
     "techToolUsage": [
       0,
@@ -131,12 +110,12 @@
       0,
       0,
       2,
-      0
+      2
     ],
     "socioEmotionalTeaching": [
-      1,
       0,
-      1,
+      0,
+      0,
       0,
       1,
       2,
@@ -151,7 +130,7 @@
       0,
       3,
       0,
-      1,
+      0,
       0,
       0
     ],
