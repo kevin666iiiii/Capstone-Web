@@ -19,7 +19,7 @@
   },
   "techToolUsageInfo": {
     "level": 6.5,
-    "percent": 35.0,
+    "percent": 40.0,
     "remarks": [
       "\u00b7 This score measures technical difficulties in the session.",
       "\u00b7 Tutors are expected to spend less time on technical difficulties.",
@@ -90,7 +90,7 @@
       2
     ],
     "instructionDelivery": [
-      3,
+      0,
       0,
       0,
       0,
@@ -148,21 +148,15 @@
       0,
       0,
       0,
-      2,
-      2,
-      2,
-      3,
-      1,
-      1
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "feedback": [
       0,
-      3,
-      0,
-      0,
-      0,
-      0,
-      3,
       0,
       0,
       0,
@@ -170,10 +164,16 @@
       0,
       0,
       0,
-      3,
       0,
       0,
-      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0
     ]
