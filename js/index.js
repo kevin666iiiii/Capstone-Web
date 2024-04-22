@@ -1,6 +1,6 @@
 let technicalIssuesHasChecked = true;
 let sessionDurationHasChecked = true;
-let rubriceRatingHasChecked = true;
+let rubricRatingHasChecked = true;
 let tableData = [];
 
 $(document).ready(function () {
@@ -18,7 +18,7 @@ function getAndRenderListData() {
     let conditionRankTextArr = [];
     if (technicalIssuesHasChecked) conditionRankTextArr.push("Technical Issues");
     if (sessionDurationHasChecked) conditionRankTextArr.push("Short Sessions");
-    if (rubriceRatingHasChecked) conditionRankTextArr.push("Low Rubric Rating");
+    if (rubricRatingHasChecked) conditionRankTextArr.push("Low Rubric Rating");
 
 
     $.getJSON(url, function (dataList) {
@@ -90,7 +90,7 @@ function getAndRenderListData() {
 function showConditionDialog() {
     $("#technicalIssuesCheckbox").prop("checked", technicalIssuesHasChecked);
     $("#sessionDurationCheckbox").prop("checked", sessionDurationHasChecked);
-    $("#rubriceRatingCheckbox").prop("checked", rubriceRatingHasChecked);
+    $("#rubricRatingCheckbox").prop("checked", rubricRatingHasChecked);
     $('#myModal').modal();
 }
 
@@ -105,9 +105,9 @@ function removeCondition(conditionName) {
         $("#sessionDurationTag").css("display", "none");
 
     }
-    if (conditionName == 'rubriceRating') {
-        rubriceRatingHasChecked = false;
-        $("#rubriceRatingTag").css("display", "none");
+    if (conditionName == 'rubricRating') {
+        rubricRatingHasChecked = false;
+        $("#rubricRatingTag").css("display", "none");
     }
 
     getAndRenderListData();
@@ -117,15 +117,15 @@ function setCondition() {
 
     let technicalIssuesChecked = $("#technicalIssuesCheckbox").get(0).checked;
     let sessionDurationChecked = $("#sessionDurationCheckbox").get(0).checked;
-    let rubriceRatingChecked = $("#rubriceRatingCheckbox").get(0).checked;
+    let rubricRatingChecked = $("#rubricRatingCheckbox").get(0).checked;
 
     technicalIssuesHasChecked = technicalIssuesChecked;
     sessionDurationHasChecked = sessionDurationChecked
-    rubriceRatingHasChecked = rubriceRatingChecked;
+    rubricRatingHasChecked = rubricRatingChecked;
 
     $("#technicalIssuesTag").css("display", technicalIssuesHasChecked ? "inline-block" : "none");
     $("#sessionDurationTag").css("display", sessionDurationHasChecked ? "inline-block" : "none");
-    $("#rubriceRatingTag").css("display", rubriceRatingHasChecked ? "inline-block" : "none");
+    $("#rubricRatingTag").css("display", rubricRatingHasChecked ? "inline-block" : "none");
 
     $('#myModal').modal('hide');
 
